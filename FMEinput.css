@@ -1,0 +1,198 @@
+
+h1{
+    position: relative;
+    top:2px;
+    left: 235px;
+    font-size: 18px;
+    text-align: center;
+    color: #20496c;
+    width: 69%;
+    padding: 9px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-color: white;
+    }
+img{
+    position: relative;
+    top:3px;
+    left: 579px;
+    max-width:11%;height:auto;
+} 
+table {
+    border-collapse: collapse;
+    width: 87%; 
+    margin-bottom: 13px;
+    margin-left: 177px;
+}
+th, td, tr {
+    border: 2px none ; /* Just for demonstration purposes, you can adjust border styles as needed */
+    padding: 2px;
+}
+/* Shrink the second column */
+th:nth-child(1),
+td:nth-child(1),
+th:nth-child(2),
+td:nth-child(2),
+th:nth-child(3),
+td:nth-child(3),
+th:nth-child(4),
+td:nth-child(4),
+th:nth-child(5),
+td:nth-child(5),
+th:nth-child(5),
+td:nth-child(6)
+{
+width: 93px; /* Set the width to your desired value */
+}
+#pinakA{
+color: darkblue;
+border-color: rgb(243, 237, 237);
+}
+#pinakB{
+color: rgb(13, 104, 45);
+border-color: rgb(239, 233, 233);
+}
+input {
+box-sizing: border-box;
+height: 39px;
+font-size: 17px;
+border-radius: 8px;
+border: none;
+}
+/* Responsive design for smaller screens */
+@media (max-width: 500px) {
+table {
+overflow-x: auto;
+}
+}
+#knum10{
+border-color: crimson;
+background-color:rgb(66, 66, 165);
+color: aliceblue;
+margin-left: 13px;
+width: 91%;
+}
+#kASnum10{
+    border-color: crimson;
+    background-color:rgb(20, 157, 47);
+    color: aliceblue;
+    margin-left: 13px;
+    width: 91%;
+    }
+     .container {
+        max-width: 100px;
+        margin: 0 auto;
+        padding: 0px;  
+        margin-top: 3px;   
+        margin-left: 655px;
+     }
+    .my-button {
+        display: flex;
+        padding: 9px 53px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #3498db;
+        color: #fff;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    /* Adjust button position for smaller screens */
+    @media screen and (max-width: 100px) {
+        .my-button {
+            margin-top: 1px;
+        }
+    }
+    #num1, #num2, #num3, #num4, #num5{
+        margin-left: 9px;
+        background-color: aqua;
+        width: 91%;
+        text-align: center;
+       
+    }
+    #tnum1 , #tnum2, #tnum3, #tnum4, #tnum5{
+        margin-left: 9px;
+        background-color: aqua;
+        width: 91%;
+        text-align: center;
+    }
+    #Asnum1, #Asnum2, #Asnum3, #Asnum4, #Asnum5{
+        margin-left: 9px;
+        background-color: lightgreen;
+        width: 91%;
+        text-align: center;
+    }
+
+#tASnum1,#tASnum2,#tASnum3,#tASnum4,#tASnum5{
+margin-left: 9px;
+background-color: lightgreen;
+width: 91%;
+text-align: center;
+}
+#oresAnalog  {
+width: 77%;
+border: none;
+text-align: right;
+font-size: 16px;
+height: 47px;
+overflow: hidden;
+}
+#oresAnalogTmimat{
+width: 77%;
+border: none;
+text-align: right;
+font-size: 16px;
+height: 47px;
+overflow: hidden;
+}
+#oresAsixronis{
+width: 77%;
+border: none;
+text-align: right;
+font-size: 16px;
+height: 45px;
+overflow: hidden;
+}
+#oresAsixronisTmimata{
+width: 77%;
+border: none;
+text-align: right;
+font-size: 16px;
+height: 45px;
+overflow: hidden;
+}
+#kostosOrasAnalog{
+width: 77%;
+border: none;
+text-align: right;
+font-size: 16px;
+height: 43px;
+font-weight: bold;
+overflow: hidden;
+}
+#KostoAsixr{
+width: 77%;
+border: none;
+text-align: right;
+font-size: 16px;
+height: 43px;
+font-weight: bold;
+overflow: hidden;
+}
+
+textarea{
+    margin-top: 10px;
+    margin-left: 50px;
+    outline-style: none;
+    background-color: rgb(247, 242, 236);
+}
+footer{
+position: relative;
+top:50px;
+left: 25px;
+color: aliceblue;
+padding: 15px;
+text-align: center;
+background-color: rgb(51, 49, 44);
+}
